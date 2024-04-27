@@ -40,12 +40,14 @@ h2 {
     font-family: 'Cabin';
     font-weight: 700;
     color: var(--white) !important;
+  
 }
 
 h3 {
     font-family: 'Cabin';
-    font-weight: 700;
+    font-weight: 500;
     color: var(--white) !important;
+    font-size: 1.5rem !important;
 }
 
 h4 {
@@ -207,13 +209,21 @@ header li:hover{
     background: var(--top-card-bg);
     border-radius: 40px;
     height: auto;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     box-shadow: 0 15px 35px rgba(60, 78, 100, .15);
     transition: all 0.2s ease-in-out;
 }
-.blog-card:hover{
-  transform: scale(1.1);
+.blog-card-body{
+    padding: 20px;
 }
+.blog-card:hover{
+  transform: scale(1.04);
+}
+/* .blog-card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} */
 .swiper-button-prev,
 .swiper-button-next {
     display: block;
@@ -271,9 +281,7 @@ footer{
     background: var(--footer-bg);
     padding: 40px;
 }
-.footer-tagline{
-    max-width: 220px;
-}
+
 .footer-links{
     margin-top: 43px;
 }
